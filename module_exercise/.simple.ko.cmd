@@ -1,0 +1,1 @@
+cmd_/home/yamiyume/module_exercise/simple.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/yamiyume/module_exercise/simple.ko /home/yamiyume/module_exercise/simple.o /home/yamiyume/module_exercise/simple.mod.o;  true

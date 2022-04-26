@@ -1,0 +1,1 @@
+cmd_/home/yamiyume/module_exercise/Module.symvers := sed 's/\.ko$$/\.o/' /home/yamiyume/module_exercise/modules.order | scripts/mod/modpost -m -a  -o /home/yamiyume/module_exercise/Module.symvers -e -i Module.symvers   -T -
