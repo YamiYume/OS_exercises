@@ -1,0 +1,1 @@
+cmd_/home/yamiyume/Code/OS_exercises/task_lineal/ListTasksLinear.mod := { echo  /home/yamiyume/Code/OS_exercises/task_lineal/ListTasksLinear.o;  echo; } > /home/yamiyume/Code/OS_exercises/task_lineal/ListTasksLinear.mod

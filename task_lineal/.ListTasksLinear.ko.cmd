@@ -1,0 +1,1 @@
+cmd_/home/yamiyume/Code/OS_exercises/task_lineal/ListTasksLinear.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/yamiyume/Code/OS_exercises/task_lineal/ListTasksLinear.ko /home/yamiyume/Code/OS_exercises/task_lineal/ListTasksLinear.o /home/yamiyume/Code/OS_exercises/task_lineal/ListTasksLinear.mod.o;  true

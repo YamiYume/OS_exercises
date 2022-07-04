@@ -1,0 +1,1 @@
+cmd_/home/yamiyume/Code/OS_exercises/task_lineal/Module.symvers := sed 's/\.ko$$/\.o/' /home/yamiyume/Code/OS_exercises/task_lineal/modules.order | scripts/mod/modpost  -a  -o /home/yamiyume/Code/OS_exercises/task_lineal/Module.symvers -e -i Module.symvers  -N -T -

@@ -1,3 +1,4 @@
+#include <linux/sched/signal.h>
 #include <linux/sched.h>
 #include <linux/init.h>
 #include <linux/kernel.h>
@@ -17,7 +18,7 @@ int entryPoint(void) {
 		//task->comm is the task' name
 		//task->state is the task's state (-1 unrunnable, 0 runnable, >0 stopped)
 		//task->pid is the task's process ID
-		printk(KERN_INFO "Name: %-20s State: %ld\tProcess ID: %d\n", task->comm, task->state, task->pid);
+		printk(KERN_INFO "Name: %-20s State: %ld\tProcess ID: %d\n", task->comm, task->__state, task->pid);
 	}
 	
 	printk(KERN_INFO "Stopped listing tasks\n");
